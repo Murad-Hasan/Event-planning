@@ -12,7 +12,7 @@ const SideBar = () => {
             </div>
             <div className="col-md-9 text-center mt-5">
                     <h2>Welcome to  DashBoard</h2>
-                    <img height='400px' src="https://thumbs.dreamstime.com/b/vector-cartoon-funny-little-boy-white-background-isolated-129801438.jpg" alt=""/>
+                    <img height='400px' src="https://i.ibb.co/B29kLYy/download.jpg" alt=""/>
             </div>
         </div>
     );
