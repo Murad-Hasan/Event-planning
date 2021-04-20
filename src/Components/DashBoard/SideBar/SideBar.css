@@ -1,0 +1,13 @@
+.side-bar{
+    height: calc(100vh - 20vh);
+    background: rgb(231, 230, 230);
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.side-bar ul{
+    text-align: left;
+}
+.side-bar ul li {
+    list-style: none;
+}

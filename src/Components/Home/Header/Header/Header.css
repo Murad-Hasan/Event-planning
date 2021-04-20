@@ -1,0 +1,9 @@
+.header-background{
+   height: auto;
+   max-width: 100vw;
+   background: linear-gradient(to right,
+   rgba(132, 35, 102, .4) , 
+   rgba(96, 42, 122, .6)) ,
+   url('http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/banner-img/slider-img2.jpg');
+   
+}

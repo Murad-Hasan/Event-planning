@@ -1,0 +1,21 @@
+.story-box {
+    position: relative;
+    width: 350px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.story-box-img{
+    width: 100%;
+}
+.text {
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background: linear-gradient(
+45deg
+, rgba(65,11,112,0.8) 0%,rgba(201,57,133,0.8) 100%);
+}
