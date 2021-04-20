@@ -41,20 +41,12 @@ const LogIn = () => {
                 };
                 setUserInfo(userSignIn)
                 setLoggedInUser(userSignIn)
+                localStorage.setItem('user', JSON.stringify(userSignIn))
                 history.replace(from)
-                // setUserToken()
-                // console.log(userSignIn.username);
             }).catch((error) => {
                 setLoginError( error.message);
             });
                 }     
-    // const setUserToken = () => {
-    //     firebase.auth().currentUser.getIdToken(/* forceRefresh */ true).then(function(idToken) {
-    //         sessionStorage.setItem('token', idToken)
-    //       }).catch(function(error) {
-    //         // Handle error
-    //       });
-    // }
     return (
       <main>
           <HeaderNavbar/>

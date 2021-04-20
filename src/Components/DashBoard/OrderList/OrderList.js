@@ -9,12 +9,19 @@ import "./OrderList.css";
 const OrderList = () => {
   const [orderList, setOrderList] = useState([]);
 
-  useEffect(() => {
+  const orderListFatch = () => {
+
     fetch("https://murmuring-crag-42998.herokuapp.com/allOrderList")
-      .then((res) => res.json())
-      .then((data) => setOrderList(data));
+    .then((res) => res.json())
+    .then((data) => setOrderList(data));
+  }
+
+  useEffect(() => {
+    orderListFatch() 
   }, []);
  
+
+
 const handelStatusUpdate = (e, order) => {
     console.log(e.target.innerText, order)
     const updateStatus = {
@@ -31,7 +38,7 @@ const handelStatusUpdate = (e, order) => {
         .then(res => res.json())
         .then(data => {
             alert("Status Updated Successfully")
-            console.log(data);
+            orderListFatch() 
         })
 }
 

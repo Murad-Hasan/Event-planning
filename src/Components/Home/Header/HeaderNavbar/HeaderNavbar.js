@@ -20,7 +20,7 @@ const HeaderNavbar = () => {
             <Nav.Link className='text-white' as={Link} to="/aboutUs">About Us</Nav.Link>
             <Nav.Link className='text-white' as={Link} to="/contact">Contact </Nav.Link>
             <Nav.Link className='text-white' as={Link} to="/dashboard">Dashboard</Nav.Link>
-            { loggedInUser.email  ? <button onClick={ () => setLoggedInUser(!loggedInUser.isSignIn)} className='btn btn-danger'>LogOut</button> : <Link to='/login'><button className='btn btn-danger'>Login</button></Link>
+            {  localStorage.getItem('user')   ? <button onClick={ () => setLoggedInUser(!localStorage.removeItem('user') )} className='btn btn-danger'>LogOut</button> : <Link to='/login'><button className='btn btn-danger'>Login</button></Link>
             }
             
               

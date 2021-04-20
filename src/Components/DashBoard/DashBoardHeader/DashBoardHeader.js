@@ -6,6 +6,7 @@ import './DashBoardHeader.css'
 
 const DashBoardHeader = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
+    const logInUser = JSON.parse(localStorage.getItem('user'))
     return (
         <div className="wrapper-div">
             <div className="box a">
@@ -16,10 +17,10 @@ const DashBoardHeader = () => {
                     <h4>DashBoard</h4>
                    <div className="d-flex justify-content-between">
                    {
-                        loggedInUser.photo ? <img width='60px' height='60px' src={loggedInUser.photo} className='rounded-circle mr-3' alt="profile"/> : <h2>{loggedInUser.username}</h2>
+                        logInUser.photo ? <img width='60px' height='60px' src={logInUser.photo} className='rounded-circle mr-3' alt="profile"/> : <h2>{logInUser.username}</h2>
                     }
                     {
-                        loggedInUser.email && <button onClick={ () => setLoggedInUser(!loggedInUser.isSignIn)} className='btn btn-danger'>LogOut</button>
+                        logInUser.email && <button onClick={ () => setLoggedInUser(!localStorage.removeItem('user') )} className='btn btn-danger'>LogOut</button>
                     }
                    </div>
                 </div>
