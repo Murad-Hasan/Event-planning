@@ -33,7 +33,7 @@ const HeaderMainContent = () => {
         <div className='container header-container'>
             <div>
                 <h1>We Plan Events</h1>
-                <img src='http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/heading-blackBgimg2.png' alt=""/>
+                <img src='https://i.ibb.co/CWt9Dxz/heading-black-Bgimg2.png' alt=""/>
                 <h3>of Any Scale & Complexity!</h3>
             </div>
             <div className="banner-search d-flex py-3 flex-column  flex-md-row">

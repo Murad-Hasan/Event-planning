@@ -9,7 +9,7 @@ const DashBoardHeader = () => {
     return (
         <div className="wrapper-div">
             <div className="box a">
-            <Link to ='/home'> <img src="http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/logo-white.png" alt="logo"/></Link>
+            <Link to ='/home'> <img src="https://i.ibb.co/CWt9Dxz/heading-black-Bgimg2.png" alt="logo"/></Link>
             </div>
             <div className="box b">
                 <div className="d-flex justify-content-around align-items-center py-3">
