@@ -21,7 +21,7 @@ const AddService = () => {
           servicePrice: data.price,
           imageURL: imageURL
       }
-      const url = `http://localhost:5000/addService`
+      const url = `https://murmuring-crag-42998.herokuapp.com/addService`
       fetch(url, {
           method: 'POST' ,
           headers: {

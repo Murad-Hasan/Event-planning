@@ -19,7 +19,7 @@ const Review = () => {
           author: data.author
         }
         
-        const url = `http://localhost:5000/addTestimonial`
+        const url = `https://murmuring-crag-42998.herokuapp.com/addTestimonial`
       fetch(url, {
           method: 'POST' ,
           headers: {

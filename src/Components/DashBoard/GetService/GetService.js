@@ -21,7 +21,7 @@ const GetService = () => {
       const [loggedInUser, setLoggedInUser] = useContext(UserContext)
       const [book, setBook] = useState({});
       useEffect(() => {
-        fetch("http://localhost:5000/singleService/" + id)
+        fetch("https://murmuring-crag-42998.herokuapp.com/singleService/" + id)
           .then((res) => res.json())
           .then((data) => setBook(data));
       }, [id]);
@@ -39,7 +39,7 @@ const GetService = () => {
         let dateFormate=today.getDate() + "-"+ parseInt(today.getMonth()+1) +"-"+today.getFullYear();
         
           const confirmOrder = {serviceTitle, serviceDescription, imageURL, servicePrice, paymentId, email, username, processOrderFormData, date: dateFormate}
-              fetch('http://localhost:5000/addOrder', {
+              fetch('https://murmuring-crag-42998.herokuapp.com/addOrder', {
                 method: 'POST' ,
                 headers: {
                     'content-type' : 'application/json'

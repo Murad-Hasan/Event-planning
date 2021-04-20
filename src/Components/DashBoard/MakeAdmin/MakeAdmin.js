@@ -12,7 +12,7 @@ const MakeAdmin = () => {
     
     
       const onSubmit = (data) => {
-        fetch('http://localhost:5000/makeAdmin',{
+        fetch('https://murmuring-crag-42998.herokuapp.com/makeAdmin',{
           method: 'POST',
           headers: {'content-Type':'application/json'},
           body: JSON.stringify(data)

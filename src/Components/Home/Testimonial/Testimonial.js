@@ -36,7 +36,7 @@ const Testimonial = () => {
    
   const [showTestimonial , setShowTestimonial] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/testimonials')
+        fetch('https://murmuring-crag-42998.herokuapp.com/testimonials')
         .then(res => res.json())
         .then(data => setShowTestimonial(data))
     },[])

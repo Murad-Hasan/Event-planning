@@ -9,12 +9,12 @@ const ManageService = () => {
     const [manageOrderList, setManageOrderList] = useState([])
        
     useEffect(()=>{
-        fetch('http://localhost:5000/allOrderList')
+        fetch('https://murmuring-crag-42998.herokuapp.com/allOrderList')
         .then(res => res.json())
         .then(data => setManageOrderList(data))
     },[])
     const deleteBooking = (id) =>{
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://murmuring-crag-42998.herokuapp.com/delete/${id}`,{
             method: "DELETE"
         })
         .then(res => {

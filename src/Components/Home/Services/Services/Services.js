@@ -6,7 +6,7 @@ import "./Services.css";
 const Services = () => {
   const [showEvents , setShowEvents] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/events')
+        fetch('https://murmuring-crag-42998.herokuapp.com/events')
         .then(res => res.json())
         .then(data => setShowEvents(data))
     },[])
