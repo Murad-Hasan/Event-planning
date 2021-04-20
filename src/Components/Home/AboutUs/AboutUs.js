@@ -13,15 +13,15 @@ const AboutUs = () => {
             <div className="col-md-6">
             <Carousel>
                 <div>
-                    <img src="http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/about-us/about-sliderImg1.jpg" alt=".."/>
+                    <img src="https://i.ibb.co/Ycfpx10/about-slider-Img1.jpg" alt=".."/>
                     <p className="legend">Decoration 1</p>
                 </div>
                 <div>
-                    <img src="http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/about-us/about-sliderImg2.jpg" alt=".."/>
+                    <img src="https://i.ibb.co/ggtThbx/about-slider-Img2.jpg" alt=".."/>
                     <p className="legend">Decoration 2</p>
                 </div>
                 <div>
-                    <img src="http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/about-us/about-sliderImg4.jpg" alt=".."/>
+                    <img src="https://i.ibb.co/ZxmrD9S/about-slider-Img4.jpg" alt=".."/>
                     <p className="legend">Decoration 3</p>
                 </div>
             </Carousel>

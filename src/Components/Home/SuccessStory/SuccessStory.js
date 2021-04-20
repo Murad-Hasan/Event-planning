@@ -5,39 +5,39 @@ import './SuccessStory.css'
 const successStoryData = [
     {
         id : 1,
-        image : 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/event-img/story-img1.jpg',
+        image : 'https://i.ibb.co/SX4n1ty/story-img1.jpg',
         title: 'Birthday parties - Berlin ',
         date: '25 Mar 2017',
     },
     {
         id : 2,
-        image : 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/event-img/story-img2.jpg',
-        title: 'Birthday parties - Berlin ',
-        date: '25 Mar 2017',
+        image : 'https://i.ibb.co/NtwM2kT/story-img2.jpg',
+        title: 'Holy parties - Berlin ',
+        date: '21 Apr 2016',
     },
     {
         id : 3,
-        image : 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/event-img/story-img3.jpg',
-        title: 'Birthday parties - Berlin ',
-        date: '25 Mar 2017',
+        image : 'https://i.ibb.co/yWJrBKk/story-img3.jpg',
+        title: 'Company meeting - Kochubari ',
+        date: '02 Jan 2018',
     },
     {
         id : 4,
-        image : 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/event-img/story-img4.jpg',
-        title: 'Birthday parties - Berlin ',
-        date: '25 Mar 2017',
+        image : 'https://i.ibb.co/z6QCwZD/story-img4.jpg',
+        title: 'Stage Show - Berlin ',
+        date: '12 Jun 2015',
     },
     {
         id : 5,
-        image : 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/event-img/story-img5.jpg',
+        image : 'https://i.ibb.co/g4Mf0sC/story-img5.jpg',
         title: 'Birthday parties - Berlin ',
-        date: '25 Mar 2017',
+        date: '30 May 2016',
     },
     {
-        id : 5,
-        image : 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/event-img/story-img6.jpg',
-        title: 'Birthday parties - Berlin ',
-        date: '25 Mar 2017',
+        id : 6,
+        image : 'https://i.ibb.co/mX52P4y/story-img6.jpg',
+        title: 'Marriage parties - NY ',
+        date: '05 Dec 2019',
     }
 ]
 

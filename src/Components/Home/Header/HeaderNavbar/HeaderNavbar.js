@@ -11,7 +11,7 @@ const HeaderNavbar = () => {
     <Navbar sticky="top" collapseOnSelect expand="md" style={{background: 'rgba(96, 42, 122, .6)'}}>
       <div className="container">
         <Navbar.Brand href="/home">
-        <img src="http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/logo-white.png" alt=""/>
+        <img src="https://i.ibb.co/QMgMRGt/logo-white.png" alt=""/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

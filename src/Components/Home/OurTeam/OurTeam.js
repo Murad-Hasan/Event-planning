@@ -12,19 +12,19 @@ import {
 const teamMember = [
     {
         name: 'Michel Watson',
-        image: 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/team-memberImg/team-memberImg5.png'
+        image: 'https://i.ibb.co/r5GH4fY/team-member-Img5.png'
     },
     {
         name: 'KL Rahul',
-        image: 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/team-memberImg/team-memberImg4.png'
+        image: 'https://i.ibb.co/XxxSGdj/team-member-Img4.png'
     },
     {
         name: 'Laila Nayem',
-        image: 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/team-memberImg/team-memberImg6.png'
+        image: 'https://i.ibb.co/X7Bcb4R/team-member-Img6.png'
     },
     {
         name: 'Sanju Samson',
-        image: 'http://design.dev.drcsystems.ooo:8084/themeforest/event_planning/images/team-memberImg/team-memberImg7.png'
+        image: 'https://i.ibb.co/hRxWsCR/team-member-Img7.png'
     }
 ]
 
