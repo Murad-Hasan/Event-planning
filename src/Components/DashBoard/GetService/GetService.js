@@ -38,7 +38,7 @@ const GetService = () => {
         let today = new Date();
         let dateFormate=today.getDate() + "-"+ parseInt(today.getMonth()+1) +"-"+today.getFullYear();
         
-          const confirmOrder = {serviceTitle, serviceDescription, imageURL, servicePrice, paymentId, email, username, processOrderFormData, date: dateFormate}
+          const confirmOrder = {serviceTitle, serviceDescription, imageURL, servicePrice, paymentId, email, username, processOrderFormData, status: 'Pending' , date: dateFormate}
               fetch('https://murmuring-crag-42998.herokuapp.com/addOrder', {
                 method: 'POST' ,
                 headers: {

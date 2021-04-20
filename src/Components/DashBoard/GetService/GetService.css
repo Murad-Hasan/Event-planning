@@ -1,4 +1,4 @@
 .dashboard-content{
-        height: 100vh;
+        min-height: 100vh;
         background:  rgb(231, 230, 230)
 }
