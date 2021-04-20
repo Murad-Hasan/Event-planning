@@ -20,7 +20,7 @@ const Services = () => {
         <div className="container">
         <div className="row">
           {showEvents.map((event) => (
-              <div className="col-sm-6 col-md-4">
+              <div className="col-sm-6 col-md-4 card-border">
                 <ServiceCard event={event} key={event._id} />
               </div>
           ))}

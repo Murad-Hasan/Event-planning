@@ -3,3 +3,50 @@
     padding: 20px;
     font-family: 'Domine', serif;
 }
+
+  
+  .card-border::before,
+  .card-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0rem;
+    height: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .card-border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+  }
+  
+  .card-border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+  }
+  
+  .card-border:hover {
+    color: #1d1c1b;
+  }
+  
+  .card-border:hover::before,
+  .card-border:hover::after {
+    border-color: #eb196e;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-border:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+  }
+  
+  .card-border:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+  }

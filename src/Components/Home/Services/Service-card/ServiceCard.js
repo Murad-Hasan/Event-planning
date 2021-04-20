@@ -19,7 +19,7 @@ const ServiceCard = ({event}) => {
                 <div className='d-flex justify-content-around align-items-center'>
                     <h4>${servicePrice}</h4>
                    <Link to={`/getService/${_id}`}>
-                   <button className='btn btn-success'>Get Service</button>
+                   <button className='btn btn-outline-danger'>Get Service</button>
                    </Link>
                 </div>
         </div>

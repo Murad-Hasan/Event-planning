@@ -24,7 +24,9 @@ const OrderList = () => {
      <SideBarLink/>
  </div>
      </div>
+    
      <div className="col-md-9  rounded dashboard-content" >
+     <h4 className="text-center text-success pt-2"> Order List </h4>
      <Table striped bordered hover responsive className="auto-index">
   <thead>
     <tr>

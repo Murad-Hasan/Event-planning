@@ -25,7 +25,7 @@ const SideBarLink = () => {
         <div className='p-5'>
             <ul>
                 {
-                  !isAdmin && <div>
+                  !isAdmin && <div style={{display: !isAdmin ? 'block' : 'hide'}}>
                     <li><Link to='/getService' className='text-muted text-decoration-none'><h6><FontAwesomeIcon icon={faShoppingCart}/> Get Service</h6></Link></li>
                 <li><Link to='/booking' className='text-muted text-decoration-none'><h6><FontAwesomeIcon icon={faListAlt}/> Booking</h6></Link></li>
                 <li><Link to='/review' className='text-muted text-decoration-none'><h6><FontAwesomeIcon icon={faCommentAlt}/> Review</h6></Link></li>
