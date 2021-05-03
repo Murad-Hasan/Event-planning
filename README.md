@@ -1,8 +1,8 @@
-#Event Planning 
+# Event Planning 
 
 live Link: [Event-Planning]( https://event-planning-web.web.app/)
 
-##Features:
+## Features:
 
 - [x] Built a MERN stack web application with a dynamic Event Planning activities.
 - [x] A Customer or visitor can sign in with Google
@@ -12,7 +12,7 @@ live Link: [Event-Planning]( https://event-planning-web.web.app/)
 - [x] An admin also can see the all order list with detailed information and delete or change active status
 
 
-##Technology Used:
+## Technology Used:
 - [x] React.js
 - [x] REST API
 - [x] React Router
