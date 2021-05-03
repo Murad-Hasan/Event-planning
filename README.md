@@ -4,7 +4,9 @@ live Link: [Event-Planning]( https://event-planning-web.web.app/)
 ### Short Overveiw
 
 
- A MERN stack practiced project that illustrates a customer can order any service using payment method and see all their order.A customer can leave their review which will be appeared in the home page and can see their order status . On the other hand there is also admin section where admin can see all orders and can add services which will be appeared in the home page. Admin can change order status and add new service that appeared in home page.
+> A MERN stack practiced project that illustrates a customer can order any service using payment method and see all their order.A customer can leave their review which will be 
+>  appeared in the home page and can see their order status . On the other hand there is also admin section where admin can see all orders and can add services which will be appeared 
+> in the home page. Admin can change order status and add new service that appeared in home page.
  
  
 ## Features:
